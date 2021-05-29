@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.coin {
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+}
+
+.black-coin {
+  background-image: url(http://localhost:3001/static/BlackCoin.jpg);
+}
+
+.white-coin {
+  background-image: url(http://localhost:3001/static/WhiteCoin.png);
+}
+
+.MuiButton-fullWidth {
+  height: 100% !important;
+}
+
+.MuiDrawer-paper {
+  width: 400px;
+}
+
+.MuiFab-root {
+  position: fixed !important;
+  right: 20px;
+  bottom: 20px;
+}

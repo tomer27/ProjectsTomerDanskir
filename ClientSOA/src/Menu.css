@@ -1,0 +1,28 @@
+.menu-main-grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.menu-small-button {
+  width: 300px;
+  height: 300px;
+}
+
+.menu-big-button {
+  width: 400px;
+  height: 400px;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.justify-space {
+  justify-content: space-evenly;
+}
+
+.menu-container {
+  height: 100vh;
+}

@@ -1,0 +1,27 @@
+.chat-container {
+  height: 450px;
+  width: 400px;
+  position: relative;
+}
+
+.chat-main-grid {
+  width: 350px;
+  height: 400px;
+  display: grid;
+  grid-template-rows: 1fr 9fr 1fr;
+}
+
+.chat-messages-view {
+  height: 350px;
+  overflow-y: scroll;
+  width: 422px;
+}
+
+.chat-username {
+  font-size: 20px;
+  color: rgb(44, 36, 36);
+}
+
+.chat-text-field {
+  width: 70%;
+}

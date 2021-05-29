@@ -1,0 +1,13 @@
+.Input {
+    background-color: #f2f2f2;
+    width           : 100%;
+
+}
+
+
+.Input input {
+    border          : none;
+    width           : calc(100% - 20px);
+    background-color: transparent;
+    padding         : 10px 10px;
+}

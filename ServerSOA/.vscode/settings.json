@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/1c4d485c-61fd-4786-9681-08622c1a4b0a/resourceGroups/soa-backgammon-project-rg/providers/Microsoft.Web/sites/soa-backgammon-project"
+}

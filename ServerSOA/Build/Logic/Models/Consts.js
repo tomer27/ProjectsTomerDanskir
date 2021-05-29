@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MAX_COINS_OUT = exports.HOME_AREA_LENGTH = exports.START_WHITE_END_BLACK_INDEX = exports.START_BLACK_END_WHITE_INDEX = void 0;
+var START_WHITE_END_BLACK_INDEX = 23;
+exports.START_WHITE_END_BLACK_INDEX = START_WHITE_END_BLACK_INDEX;
+var START_BLACK_END_WHITE_INDEX = 0;
+exports.START_BLACK_END_WHITE_INDEX = START_BLACK_END_WHITE_INDEX;
+var HOME_AREA_LENGTH = 6;
+exports.HOME_AREA_LENGTH = HOME_AREA_LENGTH;
+var MAX_COINS_OUT = 15;
+exports.MAX_COINS_OUT = MAX_COINS_OUT;
+//# sourceMappingURL=Consts.js.map

@@ -1,0 +1,45 @@
+.friend-view-container {
+  width: 100%;
+  height: 130px;
+  margin-top: 10px;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.friend-view-grid {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 130px 1fr 1fr;
+}
+
+.friend-view-image-container {
+  border-radius: 2000px;
+  transition: 2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.friend-view-btns-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.friend-view-image {
+  height: 95%;
+  width: 95%;
+  object-fit: fill;
+  border-radius: 300px;
+}
+
+.friend-view-name {
+  margin: 5px;
+  font-size: 30px;
+  text-overflow: ellipsis;
+}
